@@ -1,0 +1,21 @@
+Sondage
+
+1. Testez le fonctionnement du sondage
+
+2. Modifiez pour obtenir le sondage suivant :
+
+	"Etes vous pour la taxation du chocolat ?"
+	O Tout à fait d'accord
+	O Assez d'accord
+	O Pas favorable
+	O Totalement opposé
+	
+	
+	
+Suivant temps restant :
+
+Si l'utilisateur clique sur le bouton "Submit" sans avoir coché de bouton radio, une erreur 
+	"Notice: Undefined index: ... "
+apparaît, car la variable est indéfinie.
+
+Recherchez comment la fonction "empty()" en PHP permet d'éviter ce problème

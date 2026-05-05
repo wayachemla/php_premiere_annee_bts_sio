@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Formulaire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="">
+<link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<body>
+<h1>Participez à notre grand test !</h1>
+<form method='POST' action='traitement_formulaire_sondage.php' name='sondage' enctype='application/x-www-form-urlencoded'>
+<fieldset>
+	<h4>Etes vous pour la taxation du chocolat ?</h4>
+	<label>Tout à fait d'accord </label>
+	<input type="radio" name="accord" value="oui"><br />
+
+	<label>Assez d'accord</label>
+	<input type="radio" name="accord" value="oui">
+
+	<label>Pas favorable </label>
+	<input type="radio" name="accord" value="non"><br />
+
+	<label>Totalement opposé</label>
+	<input type="radio" name="accord" value="non">
+
+</fieldset>
+<div class="envoi">
+	<input type="submit" class="envoi" value="Envoyer" />
+</div>
+</form>
+
+</body>
+</html>
