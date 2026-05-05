@@ -1,0 +1,8 @@
+Dans le formulaire :
+Ajouter un champ "Code Postal"
+Ajouter un champ "Ville"
+
+Modifier la page "traitement.php" pour afficher l'adresse avec le code postal et la ville
+
+Suivant temps restant :
+Recherche personnelle : Trouver un moyen de vérifier que le champ "nom" n'est pas vide

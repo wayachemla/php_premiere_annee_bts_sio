@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Formulaire</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Exemple de formulaire">
+	<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+	<meta name="Author" content="Grégoire Maréchal">
+<link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<body> 
+<form action="traitement.php" method="post" enctype='application/x-www-form-urlencoded'>
+
+<fieldset>  
+      	<h4>Veuillez saisir vos données</h4>
+      	<label>Nom : </label>
+		<input name="nom" type="text" size = "50" />
+      	<label>Adresse : </label>
+		<input name="adresse" type = "text" size="50"  />
+		<label>Code Postal : </label>
+		<input name="codepostal" type = "text" size="50"  />
+		<label>Ville : </label>
+		<input name="ville" type = "text" size="50"  />
+
+</fieldset>
+<div class="envoi">
+	<input type="submit" class="envoi" value="Envoyer" />
+</div>
+</form>
+
+</body>
+</html>
