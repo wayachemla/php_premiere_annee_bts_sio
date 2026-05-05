@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Formulaire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="">
+<link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<body> 
+<form  action="traitement.php" method="post" enctype='application/x-www-form-urlencoded'>
+
+<fieldset>  
+      	<h4>Veuillez saisir les valeurs</h4>
+      	<label for="produit1">Produit 1 : </label>   <input name="produit1" type="text" size = "50" />
+		<label for="produit2">Produit 2 : </label>  <input name="produit2" type="text" size = "50" />
+      	<label for="taxes">Taxes : </label>  <input name="taxes" type = "text" size="50" />
+</fieldset>
+<div class="envoi">
+	<input type="submit" class="envoi" value="Envoyer" />
+</div>
+</form>
+
+</body>
+</html>

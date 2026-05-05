@@ -1,0 +1,20 @@
+Dans le formulaire :
+
+Modifier pour pouvoir saisir le prix de 2 produits, comme ceci :
+	Produit 1 : [            ]
+	Produit 2 : [            ]
+	Taxes :     [            ]
+
+Modifier la page "traitement.php" pour afficher le ticket de vente complet :
+	Produit 1 :  ... euros
+	Produit 2 : .... euros
+	Taxes :     .... euros
+	Total TTC : .... euros
+	
+Suivant temps restant :
+	Calculer les taxes d'après le taux de TVA, comme ci-dessous :
+
+		Taux TVA : ... % 
+		Calcul : MontantHT * (1 + taux) = MontantTTC
+
+			(le taux standard de TVA est 20% ; il existe les taux réduits 10%, 5.5% et 2.1%) 
