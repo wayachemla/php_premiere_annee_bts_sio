@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>DAB - Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Distributeur Automatique de Banque</h1>
+    <form action="traitement.php" method="post">
+        <fieldset>
+            <legend>Identification</legend>
+            <label>Code Secret :</label>
+            <input name="codesecret" type="password" maxlength="4" required>
+            
+            <label>Montant du retrait :</label>
+            <input name="montant" type="number" required>
+            
+            <button type="submit">Valider</button>
+        </fieldset>
+    </form>
+</body>
+</html>
