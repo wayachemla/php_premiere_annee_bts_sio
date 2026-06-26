@@ -1,0 +1,48 @@
+<html>
+<!-- en-tete technique-->
+<head>
+<title>Formulaire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="">
+<!-- appel de la feuille de style externe -->
+ <link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<!--corps-->
+<body>
+<h1>Soldes au rayon informatique</h1>
+<h2>Tous nos ordinateurs sont à 1 euro !</h2>
+<!-- Debut du formulaire -->
+<form name="formulaire1" action="traitement_formulaire_liste.php" method="post" enctype='application/x-www-form-urlencoded'>
+
+<!-- Zones de Texte -->
+<fieldset>  
+<h4>Choisissez la marque désirée : </h4>
+	  <select name="marque">
+		  <option value="Sony">Sony</option>
+		  <option value="Samsung">Samsung</option>
+		  <option value="Apple">Apple</option>
+		  <option value="Toshiba">Toshiba</option>
+	  </select>
+</fieldset>
+
+<fieldset>  
+<h4>Choisissez le modèle désiré : </h4>
+	  <select name="modele">
+		  <option value="Portable 13,3 pouces">Portable 13,3 pouces</option>
+		  <option value="Portable 15,4 pouces">Portable 15,4 pouces</option>
+		  <option value="Portable 17 pouces">Portable 17 pouces</option>
+		  <option value="Format Tour">Format Tour</option>
+	  </select>
+</fieldset>
+
+<!-- Bouton de validation ; la classe "envoi" sert pour la mise en page -->
+<div class="envoi">
+	<input type="submit" class="envoi" value="Acheter pour 1 € seulement" />
+</div>
+<!-- fin du formulaire -->
+</form>
+</body>
+</html>

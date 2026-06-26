@@ -1,0 +1,27 @@
+Listes
+
+1. Testez le fonctionnement de la liste de marques d'ordinateurs
+
+
+2. Choisissez "Toshiba" :
+	Que remarquez-vous dans l'affichage du résultat ?
+	Corrigez le problème
+
+	
+3. Ajoutez une liste de modèles (en plus de la marque) :
+		Portable 13,3 pouces
+		Portable 15,4 pouces
+		Portable 17 pouces
+		Format Tour
+	et faites en sorte que le modèle s'affiche avec la marque choisie par le client
+
+	
+Suivant temps restant :
+
+Lorsque le client s'aperçoit que le magasin est en rupture de stock, il peut être mécontent... 
+
+Ajoutez à la page "traitement_formulaire_liste.php" la possibilité pour le client de demander à être averti, avec deux boutons radio :
+	O Je souhaite être averti lorsque ce modèle sera disponible
+	O Je ne souhaite pas être averti
+	
+et afficher une page de confirmation "Vous serez averti lorsque le modèle ... de la marque ... sera disponible"
