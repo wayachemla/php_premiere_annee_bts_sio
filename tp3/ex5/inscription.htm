@@ -1,0 +1,59 @@
+<html>
+<!-- en-tete technique-->
+<head>
+<title>Formulaire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="Grégoire Maréchal">
+<!-- appel de la feuille de style externe -->
+ <link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<!--corps-->
+<body>
+<h1>Formulaire</h1>
+
+<!-- Debut du formulaire -->
+<form name="formulaire1" action="traitement_inscription.php" method="post">
+
+<!-- Champs texte et liste -->
+<fieldset>
+<h4>Veuillez indiquer :</h4>
+
+	<label>Adresse e-mail :</label>
+	<input type="text" name="email" />
+
+	<label>Mot de passe :</label>
+	<input type="password" name="motdepasse" />
+
+	<label>Catégorie :</label>
+	<select name="categorie">
+		<option value="Etudiant">Etudiant</option>
+		<option value="Salarié">Salarié</option>
+		<option value="Profession libérale">Profession libérale</option>
+		<option value="Fonctionnaire">Fonctionnaire</option>
+	</select>
+
+</fieldset>
+
+<!-- Boutons radio abonnement -->
+<fieldset>
+<h4>Je souhaite m'abonner à la lettre d'information</h4>
+
+	<label>Oui</label>
+	<input type="radio" name="abonnement" value="oui" />
+
+	<label>Non</label>
+	<input type="radio" name="abonnement" value="non" />
+
+</fieldset>
+
+<!-- Bouton de validation -->
+<div class="envoi">
+	<input type="submit" class="envoi" value="Enregistrer" />
+</div>
+
+</form>
+</body>
+</html>
