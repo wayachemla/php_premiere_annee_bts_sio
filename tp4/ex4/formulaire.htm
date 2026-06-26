@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Hôtel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="">
+<link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<body>
+<h1>Réservation de chambre d'hôtel</h1>
+
+<form name="hotel" action="traitement_hotel.php" method="post" enctype='application/x-www-form-urlencoded'>
+
+<fieldset>
+        <h4>Veuillez saisir vos informations</h4>
+
+        <label>Nombre de nuits : </label>
+        <input type="text" name="nuits" />
+
+        <label>Nombre de personnes : </label>
+        <input type="text" name="personnes" />
+
+        <label>Petit-déjeuner : </label>
+        <input type="radio" name="petitdej" value="oui" /> Oui
+        <input type="radio" name="petitdej" value="non" checked="checked" /> Non
+
+<div class="envoi">
+    <input type="submit" class="envoi" value="Valider" />
+</div>
+</fieldset>
+
+</form>
+</body>
+</html>
