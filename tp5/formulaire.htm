@@ -1,0 +1,51 @@
+<html>
+<!-- en-tete technique-->
+<head>
+<title>Formulaire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Exemple de formulaire">
+<meta name="keywords" lang="fr" content="html,formulaire,boutons">
+<meta name="Author" content="">
+<!-- appel de la feuille de style externe -->
+ <link href="style_formulaire.css" type="text/css" rel="stylesheet" media="all">
+</head>
+
+<!--corps-->
+<body> 
+<!-- Debut du formulaire -->
+<form name="formulaire1" action="traitement.php" method="post" enctype='application/x-www-form-urlencoded'>
+
+<!-- Zones de Texte -->
+
+      	<h4>Choix du billet</h4>
+<fieldset>  
+		<label>1e classe</label><input type="radio" name="classe" value="1">
+		<label>2e classe</label><input type="radio" name="classe" value="2">
+</fieldset>
+
+<fieldset>  
+		<label>Période bleue</label><input type="radio" name="periode" value="bleue">
+		<label>Période blanche</label><input type="radio" name="periode" value="blanche">
+		<label>Période rouge</label><input type="radio" name="periode" value="rouge">
+</fieldset>
+
+<fieldset>  
+		<label>Aller simple</label><input type="radio" name="type_billet" value="simple">
+		<label>Aller-retour</label><input type="radio" name="type_billet" value="retour">
+</fieldset>
+
+<fieldset>  
+		<label>Normal</label><input type="radio" name="age" value="normal">
+		<label>Senior</label><input type="radio" name="age" value="senior">
+</fieldset>
+
+
+<!-- Bouton de validation ; la classe "envoi" sert pour la mise en page -->
+<div class="envoi">
+	<input type="submit" class="envoi" value="Envoyer" />
+</div>
+<!-- fin du formulaire -->
+</form>
+
+ </body>
+</html>

@@ -1,0 +1,64 @@
+﻿body { 		/* définit  éléments généraux  */
+	font-family: Verdana, Arial, "sans serif";
+	font-size: 12px;		/*  taille standard */
+	color: #000000; 		/* couleur du texte  */
+	text-align: left;
+	margin: 0px;
+	}
+	
+h4 {
+	font-family: "Times new roman", Times, serif;
+	color: #000099;
+	font-size: 1.40em;
+	text-align: left;
+	margin-left: 150px;
+	}
+	
+p {
+	font-family: Verdana, Arial, "sans serif";
+	color: #000099;
+	font-size: 1em;
+	text-align: left;
+	margin-left: 150px;
+}
+	
+fieldset {
+width: 400px;
+position: relative;
+border: 1px solid #090;
+margin: 10px; 		/* marge externe */
+padding: 10px; 		/* marge interne */
+background: #eee;
+}
+	
+label { /* styles des étiquettes pour les zones input */
+	color: #333;
+	font-size: 1.00em;
+	font-weight: bold;
+	text-align: left;
+	float:left;
+	width: 150px;
+	}	
+	
+input{ 
+	display: block;
+	float:left;
+	width: 220px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+input.envoi /* pour centrer le bouton */
+{
+   margin: 0px auto;
+	float: none;
+}
+
+div.envoi
+{
+float: left;
+width: 400px;
+text-align:center;
+margin: 10px; 		/* marge externe */
+}
+
